@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Outift", sans-serif;
+}
+.background{
+    background-color: rgb(198, 105, 144);
+    height: 100vh;
+    padding-top: 1px;
+}
+.title{
+    font-family: "Great Vibes", cursive;
+    font-size: 48px;
+    font-weight:200px;
+    color:white;
+    text-align: center;
+}
+.display{
+    color:white;
+    text-align:center;
+    font-size:25px;
+    margin-top:1em; 
+    margin-bottom:1em;
+}
+.box-tiles {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    height:400px;
+    margin:10px auto;
+    gap: 10px;
+}
+.box {
+    background-color: rgb(182, 192, 185);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    min-width: 100px;
+    min-height: 100px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    gap:10px;
+}
+.box.player-x {
+    color: #a940b5;   
+    font-weight: 700;
+}
+.box.player-o {
+    color: #8a7ce4;   
+    font-weight: 700;
+}
+.player1 {
+    color: #d099d6;
+}
+
+.announcement {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 0.5em;
+}
+.hide{
+    display:none;
+}
+.controls {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    margin-top:1em;
+}
+.controls button{
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size:20px;
+    margin-left:1em;
+    cursor:pointer;
+}
+.restart{
+    background-color: rgb(206, 98, 188);
+}
+#reset{
+    background-color: lightblue;
+} 
